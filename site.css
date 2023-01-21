@@ -1,0 +1,68 @@
+ body {
+   margin: 50px;
+   font-family: "Google Sans", Roboto, Arial, sans-serif;
+   font-size: 150%;
+
+   background-color: rgb(245, 245, 245);
+ }
+
+ h2 {
+   color: #bb5252;
+   margin: auto;
+
+   text-align: center;
+ }
+
+ .main_content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   width: 100%;
+ }
+
+ .content {
+   background-color: rgb(239, 239, 239);
+   width: 500px;
+   padding: 50px 80px;
+
+   text-align: center;
+
+ }
+
+ #inputNumber1, #inputNumber2, #inputNumber3{
+  width: 35;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 4px 10px;
+  
+  background-color: #565656;
+  color: rgb(242, 242, 242);
+  border-style: none;
+ }
+
+ #square_B, #cube_B, #fourth_B { 
+
+   width: 28%;
+   float: center;
+   font-size: 16px;
+   height: 48px;
+   padding: 2px 18px;
+   border-radius: 18px;
+   margin: 0 8px;
+
+   background-color: #fff;
+   border-style: none;
+
+
+   color: #3c4043;
+   cursor: pointer;
+
+
+   box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+ }
+
+ #square_B:hover, #cube_B:hover, #fourth_B:hover {
+   background: #F6F9FE;
+   color: #bb5252;
+ }
